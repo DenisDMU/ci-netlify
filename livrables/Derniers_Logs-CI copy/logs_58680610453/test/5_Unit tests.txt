@@ -1,0 +1,22 @@
+﻿2026-02-26T14:33:38.9923400Z ##[group]Run npm run test:unit
+2026-02-26T14:33:38.9923748Z [36;1mnpm run test:unit[0m
+2026-02-26T14:33:38.9973530Z shell: /usr/bin/bash -e {0}
+2026-02-26T14:33:38.9973829Z ##[endgroup]
+2026-02-26T14:33:39.1082856Z 
+2026-02-26T14:33:39.1083261Z > taskflow@1.0.0 test:unit
+2026-02-26T14:33:39.1083922Z > vitest run src/utils src/components
+2026-02-26T14:33:39.1084327Z 
+2026-02-26T14:33:39.4464111Z 
+2026-02-26T14:33:39.4466284Z [1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90m/home/runner/work/ci-netlify/ci-netlify[39m
+2026-02-26T14:33:39.4467090Z 
+2026-02-26T14:33:40.4334915Z  [32m✓[39m src/utils/__tests__/taskHelpers.test.js [2m([22m[2m22 tests[22m[2m)[22m[90m 27[2mms[22m[39m
+2026-02-26T14:33:40.7265103Z  [32m✓[39m src/components/__tests__/TaskItem.test.jsx [2m([22m[2m7 tests[22m[2m)[22m[90m 166[2mms[22m[39m
+2026-02-26T14:33:40.7598970Z  [32m✓[39m src/components/__tests__/TaskFilters.test.jsx [2m([22m[2m6 tests[22m[2m)[22m[90m 212[2mms[22m[39m
+2026-02-26T14:33:41.6209214Z  [32m✓[39m src/components/__tests__/TaskList.test.jsx [2m([22m[2m4 tests[22m[2m)[22m[90m 90[2mms[22m[39m
+2026-02-26T14:33:41.6461210Z  [32m✓[39m src/components/__tests__/TaskForm.test.jsx [2m([22m[2m5 tests[22m[2m)[22m[90m 291[2mms[22m[39m
+2026-02-26T14:33:41.6627468Z 
+2026-02-26T14:33:41.6639710Z [2m Test Files [22m [1m[32m5 passed[39m[22m[90m (5)[39m
+2026-02-26T14:33:41.6642378Z [2m      Tests [22m [1m[32m44 passed[39m[22m[90m (44)[39m
+2026-02-26T14:33:41.6643210Z [2m   Start at [22m 14:33:39
+2026-02-26T14:33:41.6646315Z [2m   Duration [22m 2.22s[2m (transform 145ms, setup 471ms, collect 704ms, tests 786ms, environment 2.57s, prepare 429ms)[22m
+2026-02-26T14:33:41.6647181Z 

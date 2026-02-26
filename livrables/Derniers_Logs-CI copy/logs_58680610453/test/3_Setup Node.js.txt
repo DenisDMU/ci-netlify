@@ -1,0 +1,22 @@
+﻿2026-02-26T14:33:20.8606647Z ##[group]Run actions/setup-node@v4
+2026-02-26T14:33:20.8607342Z with:
+2026-02-26T14:33:20.8607789Z   node-version: 20
+2026-02-26T14:33:20.8608274Z   cache: npm
+2026-02-26T14:33:20.8608720Z   always-auth: false
+2026-02-26T14:33:20.8609225Z   check-latest: false
+2026-02-26T14:33:20.8609909Z   token: ***
+2026-02-26T14:33:20.8610354Z ##[endgroup]
+2026-02-26T14:33:21.0378522Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+2026-02-26T14:33:21.0385139Z ##[group]Environment details
+2026-02-26T14:33:21.4079631Z node: v20.20.0
+2026-02-26T14:33:21.4080607Z npm: 10.8.2
+2026-02-26T14:33:21.4081239Z yarn: 1.22.22
+2026-02-26T14:33:21.4083229Z ##[endgroup]
+2026-02-26T14:33:21.4102877Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+2026-02-26T14:33:21.5594374Z /home/runner/.npm
+2026-02-26T14:33:21.6628391Z Cache hit for: node-cache-Linux-x64-npm-5013f6ef94677f68d37e7b2a59286a79272ac61571ce8f401bfef38076b803ea
+2026-02-26T14:33:22.3724559Z Received 97365000 of 97365000 (100.0%), 140.9 MBs/sec
+2026-02-26T14:33:22.3727180Z Cache Size: ~93 MB (97365000 B)
+2026-02-26T14:33:22.3758940Z [command]/usr/bin/tar -xf /home/runner/work/_temp/b716031b-9079-49fd-a51a-8f7c3d204d23/cache.tzst -P -C /home/runner/work/ci-netlify/ci-netlify --use-compress-program unzstd
+2026-02-26T14:33:22.7489536Z Cache restored successfully
+2026-02-26T14:33:22.7687359Z Cache restored from key: node-cache-Linux-x64-npm-5013f6ef94677f68d37e7b2a59286a79272ac61571ce8f401bfef38076b803ea

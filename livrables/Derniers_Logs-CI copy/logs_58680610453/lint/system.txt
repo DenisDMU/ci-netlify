@@ -1,0 +1,8 @@
+2026-02-26T14:33:16.9210000Z Job is waiting for a hosted runner to come online.
+2026-02-26T14:33:16.8960000Z Requested labels: ubuntu-latest
+2026-02-26T14:33:16.8960000Z Job defined at: DenisDMU/ci-netlify/.github/workflows/ci.yml@refs/heads/main
+2026-02-26T14:33:16.8960000Z Waiting for a runner to pick up this job...
+2026-02-26T14:33:16.8920000Z Evaluating lint.if
+2026-02-26T14:33:16.8920000Z Evaluating: success()
+2026-02-26T14:33:16.8920000Z Result: true
+2026-02-26T14:33:16.9220000Z Job is about to start running on the hosted runner: GitHub Actions 1000000099

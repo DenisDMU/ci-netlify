@@ -1,0 +1,22 @@
+﻿2026-02-26T14:36:07.8468895Z ##[group]Run npm install --ignore-optional
+2026-02-26T14:36:07.8469326Z [36;1mnpm install --ignore-optional[0m
+2026-02-26T14:36:07.8532337Z shell: /usr/bin/bash -e {0}
+2026-02-26T14:36:07.8532651Z ##[endgroup]
+2026-02-26T14:36:13.5629804Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+2026-02-26T14:36:14.6442094Z npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+2026-02-26T14:36:15.3078868Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-02-26T14:36:24.1251242Z 
+2026-02-26T14:36:24.1252303Z added 1493 packages, and audited 1497 packages in 16s
+2026-02-26T14:36:24.1252898Z 
+2026-02-26T14:36:24.1253201Z 390 packages are looking for funding
+2026-02-26T14:36:24.1253851Z   run `npm fund` for details
+2026-02-26T14:36:24.1530549Z 
+2026-02-26T14:36:24.1531460Z 11 vulnerabilities (1 low, 7 moderate, 3 high)
+2026-02-26T14:36:24.1532029Z 
+2026-02-26T14:36:24.1532394Z To address issues that do not require attention, run:
+2026-02-26T14:36:24.1532830Z   npm audit fix
+2026-02-26T14:36:24.1532996Z 
+2026-02-26T14:36:24.1533288Z To address all issues (including breaking changes), run:
+2026-02-26T14:36:24.1533724Z   npm audit fix --force
+2026-02-26T14:36:24.1533942Z 
+2026-02-26T14:36:24.1534101Z Run `npm audit` for details.

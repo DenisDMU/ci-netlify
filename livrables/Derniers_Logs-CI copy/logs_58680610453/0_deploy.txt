@@ -1,0 +1,273 @@
+﻿2026-02-26T14:33:54.1284548Z Current runner version: '2.331.0'
+2026-02-26T14:33:54.1307166Z ##[group]Runner Image Provisioner
+2026-02-26T14:33:54.1308528Z Hosted Compute Agent
+2026-02-26T14:33:54.1309067Z Version: 20260213.493
+2026-02-26T14:33:54.1309681Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-02-26T14:33:54.1310441Z Build Date: 2026-02-13T00:28:41Z
+2026-02-26T14:33:54.1311059Z Worker ID: {3de26dc9-c402-4910-822c-4512ded6d436}
+2026-02-26T14:33:54.1311767Z Azure Region: westus3
+2026-02-26T14:33:54.1312359Z ##[endgroup]
+2026-02-26T14:33:54.1313685Z ##[group]Operating System
+2026-02-26T14:33:54.1314281Z Ubuntu
+2026-02-26T14:33:54.1314835Z 24.04.3
+2026-02-26T14:33:54.1315255Z LTS
+2026-02-26T14:33:54.1315763Z ##[endgroup]
+2026-02-26T14:33:54.1316324Z ##[group]Runner Image
+2026-02-26T14:33:54.1316884Z Image: ubuntu-24.04
+2026-02-26T14:33:54.1317650Z Version: 20260224.36.1
+2026-02-26T14:33:54.1319011Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260224.36/images/ubuntu/Ubuntu2404-Readme.md
+2026-02-26T14:33:54.1320435Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260224.36
+2026-02-26T14:33:54.1321434Z ##[endgroup]
+2026-02-26T14:33:54.1322518Z ##[group]GITHUB_TOKEN Permissions
+2026-02-26T14:33:54.1324329Z Contents: read
+2026-02-26T14:33:54.1324933Z Metadata: read
+2026-02-26T14:33:54.1325422Z Packages: read
+2026-02-26T14:33:54.1326063Z ##[endgroup]
+2026-02-26T14:33:54.1328363Z Secret source: Actions
+2026-02-26T14:33:54.1329023Z Prepare workflow directory
+2026-02-26T14:33:54.1642291Z Prepare all required actions
+2026-02-26T14:33:54.1678722Z Getting action download info
+2026-02-26T14:35:34.1912029Z Failed to resolve action download info. Error: The HTTP request timed out after 00:01:40.
+2026-02-26T14:35:34.2007869Z Retrying in 28.647 seconds
+2026-02-26T14:36:03.2132075Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-02-26T14:36:03.3716235Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-02-26T14:36:03.5656295Z Complete job name: deploy
+2026-02-26T14:36:03.6343177Z ##[group]Run actions/checkout@v4
+2026-02-26T14:36:03.6343800Z with:
+2026-02-26T14:36:03.6344060Z   repository: DenisDMU/ci-netlify
+2026-02-26T14:36:03.6344546Z   token: ***
+2026-02-26T14:36:03.6344775Z   ssh-strict: true
+2026-02-26T14:36:03.6345010Z   ssh-user: git
+2026-02-26T14:36:03.6345252Z   persist-credentials: true
+2026-02-26T14:36:03.6345515Z   clean: true
+2026-02-26T14:36:03.6345766Z   sparse-checkout-cone-mode: true
+2026-02-26T14:36:03.6346067Z   fetch-depth: 1
+2026-02-26T14:36:03.6346313Z   fetch-tags: false
+2026-02-26T14:36:03.6346562Z   show-progress: true
+2026-02-26T14:36:03.6346805Z   lfs: false
+2026-02-26T14:36:03.6347022Z   submodules: false
+2026-02-26T14:36:03.6347433Z   set-safe-directory: true
+2026-02-26T14:36:03.6347949Z ##[endgroup]
+2026-02-26T14:36:03.7421770Z Syncing repository: DenisDMU/ci-netlify
+2026-02-26T14:36:03.7423242Z ##[group]Getting Git version info
+2026-02-26T14:36:03.7423760Z Working directory is '/home/runner/work/ci-netlify/ci-netlify'
+2026-02-26T14:36:03.7424445Z [command]/usr/bin/git version
+2026-02-26T14:36:03.7524930Z git version 2.53.0
+2026-02-26T14:36:03.7551240Z ##[endgroup]
+2026-02-26T14:36:03.7567625Z Temporarily overriding HOME='/home/runner/work/_temp/2d394750-c1bb-4ebf-8e16-6f07de5a49f0' before making global git config changes
+2026-02-26T14:36:03.7569166Z Adding repository directory to the temporary git global config as a safe directory
+2026-02-26T14:36:03.7582084Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ci-netlify/ci-netlify
+2026-02-26T14:36:03.7625613Z Deleting the contents of '/home/runner/work/ci-netlify/ci-netlify'
+2026-02-26T14:36:03.7629607Z ##[group]Initializing the repository
+2026-02-26T14:36:03.7634294Z [command]/usr/bin/git init /home/runner/work/ci-netlify/ci-netlify
+2026-02-26T14:36:03.7753119Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-02-26T14:36:03.7754125Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-02-26T14:36:03.7755036Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-02-26T14:36:03.7755672Z hint: call:
+2026-02-26T14:36:03.7755894Z hint:
+2026-02-26T14:36:03.7756449Z hint: 	git config --global init.defaultBranch <name>
+2026-02-26T14:36:03.7757135Z hint:
+2026-02-26T14:36:03.7757805Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-02-26T14:36:03.7758404Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-02-26T14:36:03.7759179Z hint:
+2026-02-26T14:36:03.7759713Z hint: 	git branch -m <name>
+2026-02-26T14:36:03.7760231Z hint:
+2026-02-26T14:36:03.7760897Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-02-26T14:36:03.7762080Z Initialized empty Git repository in /home/runner/work/ci-netlify/ci-netlify/.git/
+2026-02-26T14:36:03.7770543Z [command]/usr/bin/git remote add origin https://github.com/DenisDMU/ci-netlify
+2026-02-26T14:36:03.7808360Z ##[endgroup]
+2026-02-26T14:36:03.7809163Z ##[group]Disabling automatic garbage collection
+2026-02-26T14:36:03.7813550Z [command]/usr/bin/git config --local gc.auto 0
+2026-02-26T14:36:03.7842498Z ##[endgroup]
+2026-02-26T14:36:03.7843187Z ##[group]Setting up auth
+2026-02-26T14:36:03.7848904Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-02-26T14:36:03.7879569Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-02-26T14:36:03.8238689Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-02-26T14:36:03.8268484Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-02-26T14:36:03.8500760Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-02-26T14:36:03.8532080Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-02-26T14:36:03.8776434Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-02-26T14:36:03.8811821Z ##[endgroup]
+2026-02-26T14:36:03.8812873Z ##[group]Fetching the repository
+2026-02-26T14:36:03.8821501Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +ad3bc6dee91e806e4acb4060fc2d412113fdc5b4:refs/remotes/origin/main
+2026-02-26T14:36:04.5999824Z From https://github.com/DenisDMU/ci-netlify
+2026-02-26T14:36:04.6000747Z  * [new ref]         ad3bc6dee91e806e4acb4060fc2d412113fdc5b4 -> origin/main
+2026-02-26T14:36:04.6035775Z ##[endgroup]
+2026-02-26T14:36:04.6036376Z ##[group]Determining the checkout info
+2026-02-26T14:36:04.6038108Z ##[endgroup]
+2026-02-26T14:36:04.6042969Z [command]/usr/bin/git sparse-checkout disable
+2026-02-26T14:36:04.6086671Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-02-26T14:36:04.6112489Z ##[group]Checking out the ref
+2026-02-26T14:36:04.6116169Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-02-26T14:36:04.6261930Z Switched to a new branch 'main'
+2026-02-26T14:36:04.6264973Z branch 'main' set up to track 'origin/main'.
+2026-02-26T14:36:04.6271326Z ##[endgroup]
+2026-02-26T14:36:04.6309777Z [command]/usr/bin/git log -1 --format=%H
+2026-02-26T14:36:04.6333955Z ad3bc6dee91e806e4acb4060fc2d412113fdc5b4
+2026-02-26T14:36:04.6580387Z ##[group]Run actions/setup-node@v4
+2026-02-26T14:36:04.6580720Z with:
+2026-02-26T14:36:04.6580943Z   node-version: 20
+2026-02-26T14:36:04.6581178Z   cache: npm
+2026-02-26T14:36:04.6581394Z   always-auth: false
+2026-02-26T14:36:04.6581639Z   check-latest: false
+2026-02-26T14:36:04.6582008Z   token: ***
+2026-02-26T14:36:04.6582229Z ##[endgroup]
+2026-02-26T14:36:04.8351893Z Found in cache @ /opt/hostedtoolcache/node/20.20.0/x64
+2026-02-26T14:36:04.8358354Z ##[group]Environment details
+2026-02-26T14:36:05.1702390Z node: v20.20.0
+2026-02-26T14:36:05.1702918Z npm: 10.8.2
+2026-02-26T14:36:05.1703289Z yarn: 1.22.22
+2026-02-26T14:36:05.1704130Z ##[endgroup]
+2026-02-26T14:36:05.1734948Z [command]/opt/hostedtoolcache/node/20.20.0/x64/bin/npm config get cache
+2026-02-26T14:36:05.2911903Z /home/runner/.npm
+2026-02-26T14:36:05.5779239Z Cache hit for: node-cache-Linux-x64-npm-5013f6ef94677f68d37e7b2a59286a79272ac61571ce8f401bfef38076b803ea
+2026-02-26T14:36:06.8481007Z Received 33554432 of 97365000 (34.5%), 32.0 MBs/sec
+2026-02-26T14:36:07.4596965Z Received 97365000 of 97365000 (100.0%), 57.6 MBs/sec
+2026-02-26T14:36:07.4598645Z Cache Size: ~93 MB (97365000 B)
+2026-02-26T14:36:07.4667532Z [command]/usr/bin/tar -xf /home/runner/work/_temp/6771f58e-818e-492a-8280-56d5cad3f957/cache.tzst -P -C /home/runner/work/ci-netlify/ci-netlify --use-compress-program unzstd
+2026-02-26T14:36:07.8113186Z Cache restored successfully
+2026-02-26T14:36:07.8316212Z Cache restored from key: node-cache-Linux-x64-npm-5013f6ef94677f68d37e7b2a59286a79272ac61571ce8f401bfef38076b803ea
+2026-02-26T14:36:07.8468915Z ##[group]Run npm install --ignore-optional
+2026-02-26T14:36:07.8469331Z [36;1mnpm install --ignore-optional[0m
+2026-02-26T14:36:07.8532356Z shell: /usr/bin/bash -e {0}
+2026-02-26T14:36:07.8532655Z ##[endgroup]
+2026-02-26T14:36:13.5629855Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+2026-02-26T14:36:14.6442150Z npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+2026-02-26T14:36:15.3078925Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-02-26T14:36:24.1251303Z 
+2026-02-26T14:36:24.1252314Z added 1493 packages, and audited 1497 packages in 16s
+2026-02-26T14:36:24.1252906Z 
+2026-02-26T14:36:24.1253293Z 390 packages are looking for funding
+2026-02-26T14:36:24.1253859Z   run `npm fund` for details
+2026-02-26T14:36:24.1530593Z 
+2026-02-26T14:36:24.1531467Z 11 vulnerabilities (1 low, 7 moderate, 3 high)
+2026-02-26T14:36:24.1532035Z 
+2026-02-26T14:36:24.1532399Z To address issues that do not require attention, run:
+2026-02-26T14:36:24.1532834Z   npm audit fix
+2026-02-26T14:36:24.1532999Z 
+2026-02-26T14:36:24.1533299Z To address all issues (including breaking changes), run:
+2026-02-26T14:36:24.1533728Z   npm audit fix --force
+2026-02-26T14:36:24.1533945Z 
+2026-02-26T14:36:24.1534104Z Run `npm audit` for details.
+2026-02-26T14:36:24.2282951Z ##[group]Run npm run build
+2026-02-26T14:36:24.2283266Z [36;1mnpm run build[0m
+2026-02-26T14:36:24.2332545Z shell: /usr/bin/bash -e {0}
+2026-02-26T14:36:24.2332802Z ##[endgroup]
+2026-02-26T14:36:24.3479054Z 
+2026-02-26T14:36:24.3479656Z > taskflow@1.0.0 build
+2026-02-26T14:36:24.3480169Z > vite build
+2026-02-26T14:36:24.3480393Z 
+2026-02-26T14:36:24.5453166Z [36mvite v6.4.1 [32mbuilding for production...[36m[39m
+2026-02-26T14:36:24.6081528Z transforming...
+2026-02-26T14:36:25.2647549Z [32m✓[39m 32 modules transformed.
+2026-02-26T14:36:25.3668274Z rendering chunks...
+2026-02-26T14:36:25.3724931Z computing gzip size...
+2026-02-26T14:36:25.3782913Z [2mdist/[22m[32mindex.html                 [39m[1m[2m  0.76 kB[22m[1m[22m[2m │ gzip:  0.43 kB[22m
+2026-02-26T14:36:25.3785039Z [2mdist/[22m[2massets/[22m[35mindex-CY_yYkcQ.css  [39m[1m[2m  4.54 kB[22m[1m[22m[2m │ gzip:  1.43 kB[22m
+2026-02-26T14:36:25.3786877Z [2mdist/[22m[2massets/[22m[36mindex-CJW_ZaRf.js   [39m[1m[2m146.55 kB[22m[1m[22m[2m │ gzip: 47.24 kB[22m
+2026-02-26T14:36:25.3787884Z [32m✓ built in 808ms[39m
+2026-02-26T14:36:25.4038387Z ##[group]Run npx netlify-cli deploy --prod --dir=dist --auth $NETLIFY_AUTH_TOKEN --site $NETLIFY_SITE_ID
+2026-02-26T14:36:25.4039449Z [36;1mnpx netlify-cli deploy --prod --dir=dist --auth $NETLIFY_AUTH_TOKEN --site $NETLIFY_SITE_ID[0m
+2026-02-26T14:36:25.4088877Z shell: /usr/bin/bash -e {0}
+2026-02-26T14:36:25.4089133Z env:
+2026-02-26T14:36:25.4089568Z   NETLIFY_AUTH_TOKEN: ***
+2026-02-26T14:36:25.4089882Z   NETLIFY_SITE_ID: ***
+
+
+2026-02-26T14:36:25.4090104Z ##[endgroup]
+2026-02-26T14:36:29.7789097Z [96m[1m​[22m[39m
+2026-02-26T14:36:29.7790235Z [96m[1mNetlify Build                                                 [22m[39m
+2026-02-26T14:36:29.7791619Z [96m[1m────────────────────────────────────────────────────────────────[22m[39m
+2026-02-26T14:36:29.7792499Z [36m[1m​[22m[39m
+2026-02-26T14:36:29.7793059Z [36m[1m❯ Version[22m[39m
+2026-02-26T14:36:29.7793472Z   @netlify/build 35.7.1
+2026-02-26T14:36:29.7805150Z [36m[1m​[22m[39m
+2026-02-26T14:36:29.7805810Z [36m[1m❯ Flags[22m[39m
+2026-02-26T14:36:29.7857648Z   accountId: 67fbcecea3343c2d0575fdee
+2026-02-26T14:36:29.7858375Z   deployId: 69a05a6d61f3cd125d1268a4
+2026-02-26T14:36:30.4082357Z [36m[1m​[22m[39m
+2026-02-26T14:36:30.4083089Z [36m[1m❯ Current directory[22m[39m
+2026-02-26T14:36:30.4083718Z   /home/runner/work/ci-netlify/ci-netlify
+2026-02-26T14:36:30.4084386Z [36m[1m​[22m[39m
+2026-02-26T14:36:30.4084919Z [36m[1m❯ Config file[22m[39m
+2026-02-26T14:36:30.4085540Z   No config file was defined: using default values.
+2026-02-26T14:36:30.4086190Z [36m[1m​[22m[39m
+2026-02-26T14:36:30.4086643Z [36m[1m❯ Context[22m[39m
+2026-02-26T14:36:30.4087034Z   production
+2026-02-26T14:36:30.4208993Z [96m[1m​[22m[39m
+2026-02-26T14:36:30.4209979Z [96m[1mBuild command from Netlify app                                [22m[39m
+2026-02-26T14:36:30.4211219Z [96m[1m────────────────────────────────────────────────────────────────[22m[39m
+2026-02-26T14:36:30.4211926Z ​
+2026-02-26T14:36:30.4212419Z [36m$ npm run build[39m
+2026-02-26T14:36:30.5558763Z 
+2026-02-26T14:36:30.5559320Z > taskflow@1.0.0 build
+2026-02-26T14:36:30.5559713Z > vite build
+2026-02-26T14:36:30.5559868Z 
+2026-02-26T14:36:30.7423887Z [36mvite v6.4.1 [32mbuilding for production...[36m[39m
+2026-02-26T14:36:30.8016988Z transforming...
+2026-02-26T14:36:31.4586862Z [32m✓[39m 32 modules transformed.
+2026-02-26T14:36:31.5577940Z rendering chunks...
+2026-02-26T14:36:31.5630676Z computing gzip size...
+2026-02-26T14:36:31.5688250Z [2mdist/[22m[32mindex.html                 [39m[1m[2m  0.76 kB[22m[1m[22m[2m │ gzip:  0.43 kB[22m
+2026-02-26T14:36:31.5689743Z [2mdist/[22m[2massets/[22m[35mindex-CY_yYkcQ.css  [39m[1m[2m  4.54 kB[22m[1m[22m[2m │ gzip:  1.43 kB[22m
+2026-02-26T14:36:31.5690654Z [2mdist/[22m[2massets/[22m[36mindex-CJW_ZaRf.js   [39m[1m[2m146.55 kB[22m[1m[22m[2m │ gzip: 47.24 kB[22m
+2026-02-26T14:36:31.5691578Z [32m✓ built in 803ms[39m
+2026-02-26T14:36:31.5900342Z ​
+2026-02-26T14:36:31.5901026Z [90m(build.command completed in 1.1s)[39m
+2026-02-26T14:36:31.5966314Z 
+2026-02-26T14:36:31.5967069Z Deploying to Netlify
+2026-02-26T14:36:31.5968075Z ────────────────────────────────────────────────────────────────
+2026-02-26T14:36:31.5968361Z 
+2026-02-26T14:36:31.5975078Z Deploy path: /home/runner/work/ci-netlify/ci-netlify/dist
+2026-02-26T14:36:31.5975525Z 
+2026-02-26T14:36:31.7460529Z [33m⠋[39m Uploading blobs to deploy store...
+2026-02-26T14:36:31.7460918Z 
+2026-02-26T14:36:31.7506427Z [32m✔[39m Finished uploading blobs to deploy store
+2026-02-26T14:36:31.7511227Z [33m⠋[39m Hashing files...
+2026-02-26T14:36:31.7538351Z [33m⠋[39m Looking for a functions cache...
+2026-02-26T14:36:31.7539160Z [32m✔[39m No cached functions were found
+2026-02-26T14:36:31.7640596Z [32m✔[39m Finished hashing 
+2026-02-26T14:36:31.7641274Z [33m⠋[39m CDN diffing files...
+2026-02-26T14:36:31.9587631Z [32m✔[39m CDN requesting 0 files
+2026-02-26T14:36:31.9589062Z [33m⠋[39m Uploading 0 files
+2026-02-26T14:36:31.9591199Z [32m✔[39m Finished uploading 0 assets
+2026-02-26T14:36:31.9592060Z [33m⠋[39m Waiting for deploy to go live...
+2026-02-26T14:36:33.1921017Z [32m✔[39m Deploy is live!
+2026-02-26T14:36:33.1956620Z [96m[1m​[22m[39m
+2026-02-26T14:36:33.1957710Z [96m[1mNetlify Build Complete                                        [22m[39m
+2026-02-26T14:36:33.1958525Z [96m[1m────────────────────────────────────────────────────────────────[22m[39m
+2026-02-26T14:36:33.1958953Z ​
+2026-02-26T14:36:33.1959282Z [90m(Netlify Build completed in 3.4s)[39m
+2026-02-26T14:36:33.1962151Z 
+2026-02-26T14:36:33.1962416Z 🚀 Deploy complete
+2026-02-26T14:36:33.1962969Z ────────────────────────────────────────────────────────────────
+2026-02-26T14:36:33.2029231Z 
+2026-02-26T14:36:33.2030358Z ╭────────────────────── ⬥  Production deploy is live ⬥  ───────────────────────╮
+2026-02-26T14:36:33.2031652Z │                                                                              │
+2026-02-26T14:36:33.2036320Z │          Deployed to production URL: https://dmu-toast.netlify.app           │
+2026-02-26T14:36:33.2037529Z │                                                                              │
+2026-02-26T14:36:33.2038408Z │                             Unique deploy URL:                               │
+2026-02-26T14:36:33.2039383Z │           https://69a05a6d61f3cd125d1268a4--dmu-toast.netlify.app            │
+2026-02-26T14:36:33.2040101Z │                                                                              │
+2026-02-26T14:36:33.2040663Z ╰──────────────────────────────────────────────────────────────────────────────╯
+2026-02-26T14:36:33.2040914Z 
+2026-02-26T14:36:33.2041294Z Build logs:         https://app.netlify.com/projects/dmu-toast/deploys/69a05a6d61f3cd125d1268a4
+2026-02-26T14:36:33.2041941Z Function logs:      https://app.netlify.com/projects/dmu-toast/logs/functions
+2026-02-26T14:36:33.2042543Z Edge function Logs: https://app.netlify.com/projects/dmu-toast/logs/edge-functions
+2026-02-26T14:36:33.2485247Z Post job cleanup.
+2026-02-26T14:36:33.4055454Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-5013f6ef94677f68d37e7b2a59286a79272ac61571ce8f401bfef38076b803ea, not saving cache.
+2026-02-26T14:36:33.4189570Z Post job cleanup.
+2026-02-26T14:36:33.5133460Z [command]/usr/bin/git version
+2026-02-26T14:36:33.5170944Z git version 2.53.0
+2026-02-26T14:36:33.5212699Z Temporarily overriding HOME='/home/runner/work/_temp/15c48873-4de3-4bb0-837f-4875b4d11483' before making global git config changes
+2026-02-26T14:36:33.5214200Z Adding repository directory to the temporary git global config as a safe directory
+2026-02-26T14:36:33.5218321Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ci-netlify/ci-netlify
+2026-02-26T14:36:33.5254836Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-02-26T14:36:33.5289245Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-02-26T14:36:33.5533246Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-02-26T14:36:33.5555237Z http.https://github.com/.extraheader
+2026-02-26T14:36:33.5567856Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-02-26T14:36:33.5600135Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-02-26T14:36:33.5831215Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-02-26T14:36:33.5862994Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-02-26T14:36:33.6199142Z Cleaning up orphan processes

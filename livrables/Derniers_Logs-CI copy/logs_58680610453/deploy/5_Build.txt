@@ -1,0 +1,17 @@
+﻿2026-02-26T14:36:24.2282938Z ##[group]Run npm run build
+2026-02-26T14:36:24.2283263Z [36;1mnpm run build[0m
+2026-02-26T14:36:24.2332537Z shell: /usr/bin/bash -e {0}
+2026-02-26T14:36:24.2332798Z ##[endgroup]
+2026-02-26T14:36:24.3479008Z 
+2026-02-26T14:36:24.3479647Z > taskflow@1.0.0 build
+2026-02-26T14:36:24.3480161Z > vite build
+2026-02-26T14:36:24.3480388Z 
+2026-02-26T14:36:24.5453128Z [36mvite v6.4.1 [32mbuilding for production...[36m[39m
+2026-02-26T14:36:24.6081491Z transforming...
+2026-02-26T14:36:25.2647506Z [32m✓[39m 32 modules transformed.
+2026-02-26T14:36:25.3668232Z rendering chunks...
+2026-02-26T14:36:25.3724916Z computing gzip size...
+2026-02-26T14:36:25.3782898Z [2mdist/[22m[32mindex.html                 [39m[1m[2m  0.76 kB[22m[1m[22m[2m │ gzip:  0.43 kB[22m
+2026-02-26T14:36:25.3785023Z [2mdist/[22m[2massets/[22m[35mindex-CY_yYkcQ.css  [39m[1m[2m  4.54 kB[22m[1m[22m[2m │ gzip:  1.43 kB[22m
+2026-02-26T14:36:25.3786662Z [2mdist/[22m[2massets/[22m[36mindex-CJW_ZaRf.js   [39m[1m[2m146.55 kB[22m[1m[22m[2m │ gzip: 47.24 kB[22m
+2026-02-26T14:36:25.3787875Z [32m✓ built in 808ms[39m

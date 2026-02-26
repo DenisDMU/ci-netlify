@@ -1,0 +1,34 @@
+﻿2026-02-26T14:33:54.1283645Z Current runner version: '2.331.0'
+2026-02-26T14:33:54.1307143Z ##[group]Runner Image Provisioner
+2026-02-26T14:33:54.1308518Z Hosted Compute Agent
+2026-02-26T14:33:54.1309064Z Version: 20260213.493
+2026-02-26T14:33:54.1309677Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-02-26T14:33:54.1310437Z Build Date: 2026-02-13T00:28:41Z
+2026-02-26T14:33:54.1311056Z Worker ID: {3de26dc9-c402-4910-822c-4512ded6d436}
+2026-02-26T14:33:54.1311763Z Azure Region: westus3
+2026-02-26T14:33:54.1312355Z ##[endgroup]
+2026-02-26T14:33:54.1313673Z ##[group]Operating System
+2026-02-26T14:33:54.1314278Z Ubuntu
+2026-02-26T14:33:54.1314832Z 24.04.3
+2026-02-26T14:33:54.1315252Z LTS
+2026-02-26T14:33:54.1315760Z ##[endgroup]
+2026-02-26T14:33:54.1316320Z ##[group]Runner Image
+2026-02-26T14:33:54.1316881Z Image: ubuntu-24.04
+2026-02-26T14:33:54.1317643Z Version: 20260224.36.1
+2026-02-26T14:33:54.1318781Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260224.36/images/ubuntu/Ubuntu2404-Readme.md
+2026-02-26T14:33:54.1320431Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260224.36
+2026-02-26T14:33:54.1321431Z ##[endgroup]
+2026-02-26T14:33:54.1322514Z ##[group]GITHUB_TOKEN Permissions
+2026-02-26T14:33:54.1324311Z Contents: read
+2026-02-26T14:33:54.1324930Z Metadata: read
+2026-02-26T14:33:54.1325420Z Packages: read
+2026-02-26T14:33:54.1326058Z ##[endgroup]
+2026-02-26T14:33:54.1328344Z Secret source: Actions
+2026-02-26T14:33:54.1329018Z Prepare workflow directory
+2026-02-26T14:33:54.1642270Z Prepare all required actions
+2026-02-26T14:33:54.1678698Z Getting action download info
+2026-02-26T14:35:34.1911978Z Failed to resolve action download info. Error: The HTTP request timed out after 00:01:40.
+2026-02-26T14:35:34.2007835Z Retrying in 28.647 seconds
+2026-02-26T14:36:03.2132032Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-02-26T14:36:03.3716179Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-02-26T14:36:03.5656260Z Complete job name: deploy

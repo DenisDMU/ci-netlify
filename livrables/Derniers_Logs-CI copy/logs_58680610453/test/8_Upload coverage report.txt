@@ -1,0 +1,20 @@
+﻿2026-02-26T14:33:47.5267351Z ##[group]Run actions/upload-artifact@v4
+2026-02-26T14:33:47.5267700Z with:
+2026-02-26T14:33:47.5267895Z   name: coverage-report
+2026-02-26T14:33:47.5268104Z   path: coverage/
+2026-02-26T14:33:47.5268306Z   if-no-files-found: warn
+2026-02-26T14:33:47.5268530Z   compression-level: 6
+2026-02-26T14:33:47.5268728Z   overwrite: false
+2026-02-26T14:33:47.5268926Z   include-hidden-files: false
+2026-02-26T14:33:47.5269150Z ##[endgroup]
+2026-02-26T14:33:47.7510340Z With the provided path, there will be 17 files uploaded
+2026-02-26T14:33:47.7516472Z Artifact name is valid!
+2026-02-26T14:33:47.7518684Z Root directory input is valid!
+2026-02-26T14:33:47.8634538Z Beginning upload of artifact content to blob storage
+2026-02-26T14:33:47.9645398Z Uploaded bytes 30988
+2026-02-26T14:33:47.9840429Z Finished uploading artifact content to blob storage!
+2026-02-26T14:33:47.9844068Z SHA256 digest of uploaded artifact zip is 2b0a9231d8316c6f6abc3b316e318ad14cf612d7b090f97bb2c349c8c1c2b361
+2026-02-26T14:33:47.9845653Z Finalizing artifact upload
+2026-02-26T14:33:48.0896236Z Artifact coverage-report.zip successfully finalized. Artifact ID 5673677332
+2026-02-26T14:33:48.0897815Z Artifact coverage-report has been successfully uploaded! Final size is 30988 bytes. Artifact ID is 5673677332
+2026-02-26T14:33:48.0905285Z Artifact download URL: https://github.com/DenisDMU/ci-netlify/actions/runs/22446600326/artifacts/5673677332
