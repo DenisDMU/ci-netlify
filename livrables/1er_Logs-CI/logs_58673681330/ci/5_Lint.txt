@@ -1,0 +1,15 @@
+﻿2026-02-26T13:34:02.0697313Z ##[group]Run npm run lint
+2026-02-26T13:34:02.0697651Z [36;1mnpm run lint[0m
+2026-02-26T13:34:02.0753130Z shell: /usr/bin/bash -e {0}
+2026-02-26T13:34:02.0753451Z ##[endgroup]
+2026-02-26T13:34:02.1912510Z 
+2026-02-26T13:34:02.1913249Z > taskflow@1.0.0 lint
+2026-02-26T13:34:02.1913929Z > eslint .
+2026-02-26T13:34:02.1914143Z 
+2026-02-26T13:34:03.7236191Z 
+2026-02-26T13:34:03.7237323Z /home/runner/work/ci-netlify/ci-netlify/src/utils/__tests__/taskHelpers.test.js
+2026-02-26T13:34:03.7266949Z ##[error]  3:3  error  'createTask' is defined but never used. Allowed unused vars must match /^(vi|expect|describe|it|test|beforeEach|afterEach|beforeAll|afterAll)$/u  no-unused-vars
+2026-02-26T13:34:03.7275172Z 
+2026-02-26T13:34:03.7275755Z ✖ 1 problem (1 error, 0 warnings)
+2026-02-26T13:34:03.7275984Z 
+2026-02-26T13:34:03.7510342Z ##[error]Process completed with exit code 1.
