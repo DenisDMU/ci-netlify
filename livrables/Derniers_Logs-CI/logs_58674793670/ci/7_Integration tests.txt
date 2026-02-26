@@ -1,0 +1,19 @@
+﻿2026-02-26T13:43:51.6208660Z ##[group]Run npm run test:integration
+2026-02-26T13:43:51.6209246Z [36;1mnpm run test:integration[0m
+2026-02-26T13:43:51.6280584Z shell: /usr/bin/bash -e {0}
+2026-02-26T13:43:51.6281324Z ##[endgroup]
+2026-02-26T13:43:51.7432056Z 
+2026-02-26T13:43:51.7432883Z > taskflow@1.0.0 test:integration
+2026-02-26T13:43:51.7433561Z > vitest run --dir src/__tests__
+2026-02-26T13:43:51.7433879Z 
+2026-02-26T13:43:52.1029138Z 
+2026-02-26T13:43:52.1031080Z [1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90m/home/runner/work/ci-netlify/ci-netlify[39m
+2026-02-26T13:43:52.1033489Z 
+2026-02-26T13:43:53.6423696Z  [32m✓[39m src/__tests__/App.test.jsx [2m([22m[2m6 tests[22m[2m)[22m[33m 592[2mms[22m[39m
+2026-02-26T13:43:54.0094728Z  [32m✓[39m src/__tests__/App.integration.test.jsx [2m([22m[2m8 tests[22m[2m)[22m[33m 961[2mms[22m[39m
+2026-02-26T13:43:54.0292444Z 
+2026-02-26T13:43:54.0316630Z [2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+2026-02-26T13:43:54.0318136Z [2m      Tests [22m [1m[32m14 passed[39m[22m[90m (14)[39m
+2026-02-26T13:43:54.0319372Z [2m   Start at [22m 13:43:52
+2026-02-26T13:43:54.0321031Z [2m   Duration [22m 1.93s[2m (transform 113ms, setup 143ms, collect 448ms, tests 1.55s, environment 855ms, prepare 166ms)[22m
+2026-02-26T13:43:54.0322641Z 

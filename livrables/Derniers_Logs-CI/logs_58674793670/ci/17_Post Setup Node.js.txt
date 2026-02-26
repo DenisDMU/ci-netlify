@@ -1,0 +1,4 @@
+﻿2026-02-26T13:43:58.3112962Z Post job cleanup.
+2026-02-26T13:43:58.4864684Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/ci-netlify/ci-netlify --files-from manifest.txt --use-compress-program zstdmt
+2026-02-26T13:43:59.4864598Z Sent 28317002 of 28317002 (100.0%), 38.9 MBs/sec
+2026-02-26T13:43:59.6112413Z Cache saved with the key: node-cache-Linux-x64-npm-effbb9652007036b91f6cb284cf2276ab288a8262dbf0b2c16d586e13ba39236
